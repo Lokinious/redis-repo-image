@@ -9,7 +9,7 @@ EXPOSE 6379
 
 # Optionally, set a password for Redis server
 # Uncomment the following line and replace 'yourpassword' with your desired password
-ENV REDIS_PASSWORD admin
+# ENV REDIS_PASSWORD admin
 
 # Command to run Redis server
 CMD ["redis-server"]
